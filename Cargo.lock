@@ -226,6 +226,7 @@ dependencies = [
 name = "grrs"
 version = "0.1.0"
 dependencies = [
+ "atty",
  "crossbeam-channel",
  "ctrlc",
  "env_logger",
