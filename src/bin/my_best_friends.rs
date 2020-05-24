@@ -8,6 +8,7 @@ struct Info {
     rating: i32,
 }
 
+// https://doc.rust-lang.org/std/result/
 fn write_info(info: &Info) -> io::Result<()> {
     let mut file = File::create("my_best_friends.txt")?;
     // Early return on error
