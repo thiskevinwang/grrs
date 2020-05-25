@@ -276,6 +276,7 @@ dependencies = [
  "indicatif",
  "log",
  "mac-notification-sys",
+ "ms",
  "serde_json",
  "signal-hook",
  "structopt",
@@ -395,6 +396,15 @@ name = "memchr"
 version = "2.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3728d817d99e5ac407411fa471ff9800a778d88a24685968b36824eaf4bee400"
+
+[[package]]
+name = "ms"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "aa2357cf1951787260d78a39cbfefdda655196ccce6ed9e9697f950fa4dbea42"
+dependencies = [
+ "regex",
+]
 
 [[package]]
 name = "nix"
